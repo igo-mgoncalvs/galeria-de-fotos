@@ -1,0 +1,101 @@
+@import 'styles/_variaveis.scss';
+
+.imagensBox{
+  display: flex;
+  flex-direction: column;
+
+  &_listArea {
+    overflow-x: hidden;
+    
+    &_list{
+      display: flex;
+      transition: all ease 0.5s;
+
+      &_item{
+        width: 88vw;
+        margin: 25px;
+  
+        &_img, p {
+          width: 88vw;
+        }
+      }
+    }
+
+  }
+
+  &_pointList{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+    &_point{
+      background-color: $laranja-padrao;
+      border-radius: 100%;
+      width: 8px;
+      height: 8px;
+      margin: 4px;
+
+      &_ativo{
+        background-color: $laranja-escuro;
+      }
+    }
+  }
+}
+
+.navigates{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 88vw;
+  height: 49vw;
+  justify-content: space-between;
+  margin: 25px;
+}
+
+.desativa{
+  display: none;
+}
+
+.ativa{
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .imagensBox{  
+    &_listArea {
+     
+      &_list{
+        display: flex;
+        flex-wrap: wrap;
+  
+        &_item{
+          margin: 25px;
+          width: 325px;
+    
+          &_img, p {
+            width: 325px;
+          }
+        }
+      }
+  
+    }
+  
+    &_pointList{
+      display: none;
+    }
+  }
+
+  .navigates{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .imagensBox{    
+    &_listArea {
+      &_list{
+        margin: 0 25vw;
+      }
+    }
+  }
+}
