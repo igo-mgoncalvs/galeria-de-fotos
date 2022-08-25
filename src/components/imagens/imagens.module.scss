@@ -61,6 +61,7 @@
   
         &_item{
           width: 270px;
+          height: auto;
     
           &_img, p {
             width: 270px;
@@ -81,6 +82,7 @@
     &_listArea {
       &_list{
         width: calc(320px * 3);
+        height: auto;
       }
     }
   }
