@@ -8,6 +8,8 @@ Bom você tem duas opções para visualizar o projeto, você pode acessar <a hre
 
 A aplicação em si não é algo tão grande, busquei as imagens e as descrições de uma API publica de filmes e series chamada TMDB, nela eu puxo uma lista de filmes populares e extraio apenas 5 itens. O carrossel funciona aumentando e diminuindo a marginLeft, a cada vez que você clica em alguma das setas adiciona a marginLeft o tamanho exato de cada item.
 
+Algo importante de se lembrar é que sempre que for mudado a width de visualição para modo responsivo será necessario atualizar a pagina.
+
 ## 📸 Imagem do site
 <img src="./public/responsivo.png"/>
 
