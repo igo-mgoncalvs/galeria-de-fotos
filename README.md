@@ -1,46 +1,30 @@
-# Getting Started with Create React App
+# <img src="https://img.icons8.com/dusk/35/000000/gallery.png"/> Galeria de Fotos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Abrindo o projeto
 
-## Available Scripts
+Bom você tem duas opções para visualizar o projeto, você pode acessar <a href='https://igo-mgoncalvs.github.io/galeria-de-fotos/' target="_blank">esse link</a> ou você pode baixar este projeto em .zip, ao extrair a pasta abra o git bash (Ou outro interpretador de linha de comando de sua preferencia) digite 'npm i' para que sejam instaladas todos os pacotes usados na aplicação.
 
-In the project directory, you can run:
+## Como desenvolvi a solução
 
-### `npm start`
+A aplicação em si não é algo tão grande, busquei as imagens e as descrições de uma API publica de filmes e series chamada TMDB, nela eu puxo uma lista de filmes populares e extraio apenas 5 itens. O carrossel funciona aumentando e diminuindo a marginLeft, a cada vez que você clica em alguma das setas adiciona a marginLeft o tamanho exato de cada item.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 📸 Imagens
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📈 Status
+✔ Concluido
 
-### `npm test`
+## 💻 Tecnologias Utilizadas
+- HTML.
+- SCSS.
+- TypeScript.
+- React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🤔 Curiosidades
+- Demorei 10hrs pra concluir.
+- Minha maior dificuldade foi encontrar uma API legal para usar.
+- Não fiz nada tão alem do que eu já conhecia por conta disso decidi treinar minhas habiliades com componentes, pela primeira vez busquei a API com umm componente e distribui por onde eu precisava.
+- O site é responivo desenvolvido em mobile first até uma width de 1044px.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔗 Link
+Site do projeto: https://igo-mgoncalvs.github.io/galeria-de-fotos/
