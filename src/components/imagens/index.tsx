@@ -52,7 +52,7 @@ export default function Imagens () {
       </div>
       
       <div className={styles.imagensBox_listArea} >
-        <div className={styles.imagensBox_listArea_list} style={{marginLeft: scrollX}} data-listArea=''>
+        <div className={styles.imagensBox_listArea_list} style={{marginLeft: scrollX}}>
           {imagens.map((item, key) => (
             <div key={key} className={styles.imagensBox_listArea_list_item}>
               <img
