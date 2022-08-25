@@ -1,0 +1,28 @@
+@import 'styles/_variaveis.scss';
+
+.pointList{
+  display: flex;
+  justify-content: center;
+
+  width: 100vw;
+
+  &_point{
+    background-color: $laranja-padrao;
+
+    border-radius: 100%;
+    margin: 4px;
+
+    width: 8px;
+    height: 8px;
+
+    &_ativo{
+    background-color: $laranja-escuro;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pointList{
+    display: none;
+  }
+}

@@ -5,9 +5,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80px;
+
   background-color: $laranja-padrao;
   color: $laranja-escuro;
+  
+  height: 80px;
 
   font-weight: bold;
+  font-size: 30px;
 }

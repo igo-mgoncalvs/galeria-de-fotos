@@ -9,12 +9,15 @@
     
     &_list{
       display: flex;
+
       transition: all ease 0.5s;
 
       &_item{
-        width: 88vw;
         margin: 25px;
-  
+
+        width: 88vw;
+        height: 50vw;
+
         &_img, p {
           width: 88vw;
         }
@@ -22,34 +25,18 @@
     }
 
   }
-
-  &_pointList{
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-
-    &_point{
-      background-color: $laranja-padrao;
-      border-radius: 100%;
-      width: 8px;
-      height: 8px;
-      margin: 4px;
-
-      &_ativo{
-        background-color: $laranja-escuro;
-      }
-    }
-  }
 }
 
 .navigates{
-  position: absolute;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  position: absolute;
+
+  margin: 25px;
+
   width: 88vw;
   height: 49vw;
-  justify-content: space-between;
-  margin: 25px;
 }
 
 .desativa{
@@ -63,29 +50,28 @@
 @media screen and (min-width: 768px) {
   .imagensBox{  
     &_listArea {
+      display: flex;
+      justify-content: center;
      
       &_list{
         display: flex;
         flex-wrap: wrap;
+        
+        width: calc(320px * 2);
   
         &_item{
-          margin: 25px;
-          width: 325px;
+          width: 270px;
     
           &_img, p {
-            width: 325px;
+            width: 270px;
           }
         }
       }
   
     }
-  
-    &_pointList{
-      display: none;
-    }
   }
 
-  .navigates{
+.navigates{
     display: none;
   }
 }
@@ -94,7 +80,7 @@
   .imagensBox{    
     &_listArea {
       &_list{
-        margin: 0 25vw;
+        width: calc(320px * 3);
       }
     }
   }
